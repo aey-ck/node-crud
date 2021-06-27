@@ -1,0 +1,14 @@
+
+
+1. cd to-dir
+2. npm init --yes
+3. npm i express
+4. npm i -g nodemon //installs globally, monitors all files inside project
+5. change script in package.json to create short cut terminal command
+6. npm install mongoose
+7. npm install dotenv
+8. npm install cors
+
+//mongodb://127.0.0.1:27017
+1. npm start : to start the server
+2. mongod --dbpath ~/data/db : To start mongo 
