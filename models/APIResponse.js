@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const responseSchema = mongoose.Schema({
+const resSchema = mongoose.Schema({
     status:{
         type: Number,
         default : 0,
@@ -15,4 +15,4 @@ const responseSchema = mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('APIResponse', responseSchema)
+module.exports = mongoose.model('APIResponse', resSchema)
